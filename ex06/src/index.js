@@ -8,7 +8,7 @@ function comparisonToEqual(a) {
   if (a > 20) {
     return "More than 20";
   }
-  if (a >= 10) {
+  if (a >= 10 && a < 20) {
     return "10 or over";
   }
 }
